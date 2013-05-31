@@ -1,0 +1,395 @@
+2013/05/30 18:06:10 [error] [php] include(EMongoDocument.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php(3): spl_autoload_call()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\YiiBase.php(421): include()
+#2 unknown(0): autoload()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(32): spl_autoload_call()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php?r=site/index
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (3)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/30 18:06:46 [error] [php] include(EMongoDocument.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php(3): spl_autoload_call()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\YiiBase.php(421): include()
+#2 unknown(0): autoload()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(32): spl_autoload_call()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php?r=site/index
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (3)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/30 19:07:11 [error] [php] include(EMongoDocument.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php(3): spl_autoload_call()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\YiiBase.php(421): include()
+#2 unknown(0): autoload()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(32): spl_autoload_call()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php?r=site/index
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (3)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/30 19:07:16 [error] [php] include(EMongoDocument.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php(3): spl_autoload_call()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\YiiBase.php(421): include()
+#2 unknown(0): autoload()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(32): spl_autoload_call()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (3)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/30 19:13:09 [error] [php] include(EMongoDocument.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php(3): spl_autoload_call()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\YiiBase.php(421): include()
+#2 unknown(0): autoload()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(32): spl_autoload_call()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (3)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/30 19:14:59 [error] [php] include(EMongoDocument.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php(3): spl_autoload_call()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\YiiBase.php(421): include()
+#2 unknown(0): autoload()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(32): spl_autoload_call()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (3)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/30 19:21:37 [error] [exception.CException] exception 'CException' with message 'Event and its behaviors do not have a method or closure named "findOne".' in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(80): CComponent->__call('findOne', Array)
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(33): EMongoDocument->__call('findOne', Array)
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(33): Event->findOne()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): CController->run('')
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ingresseyii/index.php
+---
+2013/05/30 19:24:03 [error] [php] Undefined variable: classname (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php:32)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (33)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/31 10:13:57 [error] [exception.EMongoException] exception 'EMongoException' with message 'EMongoDB failed to open connection: Unknown error' in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\extensions\YiiMongoDbSuite\EMongoDB.php:152
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\extensions\YiiMongoDbSuite\EMongoDB.php(181): EMongoDB->getConnection()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(166): EMongoDB->getDbInstance()
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(191): EMongoDocument->getDb()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(387): EMongoDocument->getCollection()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(97): EMongoDocument->init()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(32): EMongoDocument->__construct()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): CController->run('')
+#11 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/ingresseyii/index.php
+---
+2013/05/31 10:24:07 [error] [php] Undefined variable: classname (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php:32)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (33)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/31 10:24:20 [error] [php] Undefined variable: classname (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php:32)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (33)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/31 10:24:29 [error] [php] Undefined variable: classname (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php:32)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (33)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/31 10:24:31 [error] [php] Undefined variable: classname (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php:32)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (33)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/31 10:40:29 [error] [php] Undefined variable: classname (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php:32)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (33)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/31 10:40:49 [error] [php] Undefined variable: classname (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php:32)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (33)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/31 10:40:50 [error] [php] Undefined variable: classname (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php:32)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (33)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/31 10:40:51 [error] [php] Undefined variable: classname (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php:32)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (33)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/31 10:40:56 [error] [php] Undefined variable: classname (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php:32)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (33)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/31 10:49:17 [error] [php] Undefined variable: classname (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php:32)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\models\Event.php (32)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (33)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/31 10:51:46 [error] [php] Object of class Event could not be converted to string (C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php:35)
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CWebApplication->run()
+REQUEST_URI=/ingresseyii/index.php
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php (35)
+in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php (13)
+2013/05/31 11:39:08 [error] [exception.CException] exception 'CException' with message 'Event and its behaviors do not have a method or closure named "findByAttribute".' in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\extensions\YiiMongoDbSuite\EMongoDocument.php(80): CComponent->__call('findByAttribute', Array)
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(33): EMongoDocument->__call('findByAttribute', Array)
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(33): Event->findByAttribute(Array)
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ingresseyii/index.php?r=site/index
+HTTP_REFERER=http://localhost/ingresseyii/index.php?r=site/page&view=about
+---
+2013/05/31 11:43:12 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "_sendResponse".' in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(36): CComponent->__call('_sendResponse', Array)
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(36): SiteController->_sendResponse(200, '[{"eventId":"15...')
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/ingresseyii/index.php?r=site/index
+HTTP_REFERER=http://localhost/ingresseyii/index.php?r=site/page&view=about
+---
+2013/05/31 11:44:08 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "_sendResponse".' in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(43): CComponent->__call('_sendResponse', Array)
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(43): SiteController->_sendResponse(200, '[{"eventId":"15...')
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/ingresseyii/index.php?r=site/index
+HTTP_REFERER=http://localhost/ingresseyii/index.php?r=site/page&view=about
+---
+2013/05/31 11:57:24 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "_sendResponse".' in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(43): CComponent->__call('_sendResponse', Array)
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(43): SiteController->_sendResponse(200, '[{"eventId":"15...')
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/ingresseyii/index.php?r=site/index
+HTTP_REFERER=http://localhost/ingresseyii/index.php?r=site/page&view=about
+---
+2013/05/31 11:57:25 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "_sendResponse".' in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(43): CComponent->__call('_sendResponse', Array)
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(43): SiteController->_sendResponse(200, '[{"eventId":"15...')
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): CController->run('index')
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/ingresseyii/index.php?r=site/index
+HTTP_REFERER=http://localhost/ingresseyii/index.php?r=site/page&view=about
+---
+2013/05/31 11:57:46 [error] [exception.CException] exception 'CException' with message 'SiteController and its behaviors do not have a method or closure named "_getStatusCodeMessage".' in C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CComponent.php:265
+Stack trace:
+#0 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\components\Controller.php(27): CComponent->__call('_getStatusCodeM...', Array)
+#1 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\components\Controller.php(27): SiteController->_getStatusCodeMessage(200)
+#2 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\protected\controllers\SiteController.php(43): Controller->_sendResponse(200, '[{"eventId":"15...')
+#3 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(282): CController->run('index')
+#8 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#9 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\Program Files (x86)\Zend\Apache2\htdocs\ingresseyii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/ingresseyii/index.php?r=site/index
+HTTP_REFERER=http://localhost/ingresseyii/index.php?r=site/page&view=about
+---
