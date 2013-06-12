@@ -64,38 +64,7 @@
                   // Error code goes here.
                 };
 
-                xhr.send();
-            
- 
-        /*
-                $.support.cors = true;
-                $.ajax({
-			type: 'GET',
-			url: url,
-			dataType: 'text',
-                        crossDomain: true,
-                        contentType: 'application/json',                        
-			success: function(data){                                                       
-                            var JSONdata = JSON.parse(data);
-                            var events = JSONdata.data; 
-                            var grid = $('#grid');
-                            grid.empty();
-                            
-                            $('#fulldata').empty();
-                            $('#fulldata').append(data);
-                            
-                            for (item in events) {
-                                grid.append('<p>' + events[item].title + '</p>');                                
-                            }
-                            var pageInfo = JSONdata.paginationInfo;
-                            grid.append("<p> página " + pageInfo.currentPage + " de " + pageInfo.lastPage + " (" + pageInfo.totalResults + ")");                            
-                        },
-                        error: function (xhr, ajaxOptions, thrownError) {
-                            console.log(xhr.status);
-                            alert(thrownError);
-                        }
-		}); */
-               
+                xhr.send();       
             });
         
         </script>
