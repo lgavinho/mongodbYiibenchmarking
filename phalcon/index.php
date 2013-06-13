@@ -45,6 +45,10 @@ try {
 
     //Retrieves all events
     $app->get('/events', function () use ($app) {        
+        $response = $app->response;                      
+        $response->setHeader('Access-Control-Allow-Origin', '*');
+        $response->setHeader('Access-Control-Allow-Headers', 'X-Requested-With');      
+        
         try {
             //$eventService = new Services\Transactional\Events();
             $eventService = new Services\Active\Events();
