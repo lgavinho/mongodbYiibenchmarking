@@ -11,7 +11,6 @@ try {
     $loader = new \Phalcon\Loader();
     $loader->registerDirs(array(
         'models-transact/'
-        //'models-active/'
     ))->register();
 
     $di = new \Phalcon\DI\FactoryDefault();
@@ -22,7 +21,7 @@ try {
             "host"      => "localhost",
             "username"  => "root",
             "password"  => "",
-            "dbname"    => "ingresse_11062013",
+            "dbname"    => "ingresse",
         ));
         return $conn;
     });
@@ -76,6 +75,7 @@ try {
         $response->setHeader('Access-Control-Allow-Headers', 'X-Requested-With');
         $response->setHeader("Access-Control-Allow-Headers: Authorization");
         $response->setHeader('Content-type: ' . $content_type);
+        $response->sendHeaders();
     });    
 
     $app->handle();    
