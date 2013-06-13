@@ -47,6 +47,7 @@ try {
         $response = $app->response;                      
         $response->setHeader('Access-Control-Allow-Origin', '*');
         $response->setHeader('Access-Control-Allow-Headers', 'X-Requested-With');      
+        $response->sendHeaders();
         
         try {
             //$eventService = new Services\Transactional\Events();
