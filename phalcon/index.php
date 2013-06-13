@@ -61,6 +61,22 @@ try {
         }
 
     });
+    
+    $app->get('/preflight', function() use ($app) {
+        $content_type = 'application/json';
+        $status = 200;
+        $description = 'OK';
+        $response = $app->response;
+        
+        $status_header = 'HTTP/1.1 ' . $status . ' ' . $description;
+        $response->setRawHeader($status_header);
+        $response->setStatusCode($status, $description);
+        $response->setContentType($content_type, 'UTF-8');
+        $response->setHeader('Access-Control-Allow-Origin', '*');
+        $response->setHeader('Access-Control-Allow-Headers', 'X-Requested-With');
+        $response->setHeader("Access-Control-Allow-Headers: Authorization");
+        $response->setHeader('Content-type: ' . $content_type);
+    });    
 
     $app->handle();    
     
