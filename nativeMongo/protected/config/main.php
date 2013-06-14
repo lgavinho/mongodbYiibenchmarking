@@ -37,16 +37,21 @@ return array(
 			'allowAutoLogin'=>true,
 		),
 		// uncomment the following to enable URLs in path-format
-		/*
+		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+                                'gii'=>'gii',
+                                'gii/<controller:\w+>'=>'gii/<controller>',
+                                'gii/<controller:\w+>/<action:\w+>'=>'gii/<controller>/<action>',
+				array('api/list', 'pattern'=>'api/<model:\w+>', 'verb'=>'GET'),
+				array('api/view', 'pattern'=>'api/<model:\w+>/<id:\d+>', 'verb'=>'GET'),
+				// Other controllers
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                                array('api/preflight', 'pattern'=>'api/*', 'verb'=>'OPTIONS'),
 			),
 		),
-		*/
+		
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),

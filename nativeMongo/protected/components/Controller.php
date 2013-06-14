@@ -27,6 +27,12 @@ class Controller extends CController
 	    header($status_header);
 	    // and the content type
 	    header('Content-type: ' . $content_type);
+            
+            //activate CORS
+            // Allows from any origin
+            // Allows a header called Authorization
+            header("Access-Control-Allow-Origin: *");
+            header("Access-Control-Allow-Headers: Authorization");
 	 
 	    // pages with body are easy
 	    if($body != '') {

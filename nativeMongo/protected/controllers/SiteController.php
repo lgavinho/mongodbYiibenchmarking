@@ -29,14 +29,9 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$m = new Mongo();
-		$db = $m->ingresse;
-		$collection = $db->event;
-		$model = $collection->find();
-
-		$this->_sendResponse(200, CJSON::encode($model));
-
+		
 		$this->render('index');
+                
 	}
 
 	/**
